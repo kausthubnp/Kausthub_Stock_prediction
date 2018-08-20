@@ -23,11 +23,11 @@ def retrieve_data(ticker):
     return(df) 
 
 def main():
-    ticker = 'KO'
+    ticker = 'TSLA'
     df = pd.DataFrame()
     df = retrieve_data(ticker)
     print (df)
-    df.to_csv('cola1.csv')  
+    df.to_csv('tesla.csv')  
 
 if __name__ == "__main__":
 	main()
