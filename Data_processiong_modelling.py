@@ -122,3 +122,8 @@ def plot_lstm_prediction(actual, prediction, title='Tesla Actual vs Prediction',
     ax.set_title(title)
     ax.legend(loc='upper left')
     plt.show()
+
+#Referred from 
+#https://github.com/NourozR/Stock-Price-Prediction-LSTM
+#https://github.com/surajr/Stock-Predictor-using-LSTM
+#https://github.com/jamesrequa/Stock-Predictor-RNN
